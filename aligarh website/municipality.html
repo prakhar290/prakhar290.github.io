@@ -1,0 +1,364 @@
+<!doctype html>
+<html>
+<head>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+
+<style>
+.containers{
+ 	  	width: 90%;
+ 	  	overflow: hidden;
+ 	  	padding: 20px;
+      margin: auto;
+
+ 	  }
+ 	  .containers ul
+ 	  {
+ 	  	margin: 3px 10px;
+ 	  	padding: 0px;
+ 	  }
+ 	  .containers ul li{
+ 	  	list-style: none;
+ 	  	float: left;
+ 	  	width: 500px;
+ 	  	height: 250px;
+ 	  	background-color: white;
+ 	  	margin: 10px 30px 20px 10px;
+ 	  	box-sizing: border-box;
+ 	  	border: 2px solid green;
+ 	  }
+.containers ul li :hover
+{
+	opacity: 0.9;
+
+}
+.containers ul li .title:hover{
+	background-color: blue;
+	color: white;
+
+}
+.containers ul li .title{	width:100%;
+	height: 50px;
+	line-height: 50px;
+	background: white;
+	text-align: center;
+	font-size: 20px;
+	border: 1px solid green;
+}
+@media screen and (max-width: 1250px)
+{
+	.containers ul li{
+		width: 140%;
+		margin:auto;
+
+	}
+}
+
+
+@media screen and (max-width: 750px)
+{
+	.containers ul li{
+		width: 100%;
+		padding: 0px;
+	}
+	.containers ul li {
+		float: none;
+		width: 150%;
+		margin: 100px auto;
+	}
+
+}
+  footer {
+  background: #222;
+  color: #aaa;
+  padding-top: 10px;
+}
+
+footer a {
+  color: #aaa;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer h3 {
+ color: #0894d1;
+  letter-spacing: 1px;
+  margin: 30px 0 20px;
+}
+
+footer .three-column {
+ overflow: hidden;
+}
+
+footer .three-column li{
+ width: 33.3333%;
+  float: left;
+  padding: 5px 0;
+}
+
+footer .socila-list {
+  overflow: hidden;
+  margin: 20px 0 10px;
+}
+
+footer .socila-list li {
+  float: left;
+  margin-right: 3px;
+  opacity: 0.7;
+  overflow: hidden;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+footer .socila-list li:hover {
+  opacity: 1;
+}
+
+footer .img-thumbnail {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid #444;
+  margin-bottom: 5px;
+}
+
+footer .copyright {
+  padding: 15px 0;
+  background: #333;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+footer .copyright span {
+  color: #0894d1;
+}
+
+  .about{
+    /*background-color: lightgrey;*/
+    color: black;
+    margin-top: 50px;
+
+  }
+  #navigat {
+    color: green;
+
+  }
+</style>
+ 
+</head>
+<body>
+
+  <div class="header">
+  
+   <p>
+<img src="images/aligarhlogo.jpg" alt="logo" height="75px" width="75px" style="float:left;">
+<img src="images/digital-india.png" alt="Digital India" height="75px" width="175px" style="float:right;">
+<h1 style="padding:15px;"><b>&nbsp ALIGARH!</b></h1>
+</p>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navigat">
+  <a class="navbar-brand" href="aligarh_diary.html">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="about_aligarh.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      ABOUT ALIGARH
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="home.html">HISTORY</a>
+          <a class="dropdown-item" href="dignitary.html">DIGNITARY</a>
+           <a class="dropdown-item" href="map.html">MAP OF ALIGARH</a>
+          
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span style="color:black; margin:13px;">ADMINISTRATION</span></a>
+       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <a class="dropdown-item" href="administrative_setup.html">ADMINISTRATIVE SETUP</a>
+          <a class="dropdown-item" href="tehsil.html">TEHSIL</a>
+          <a class="dropdown-item" href="block.html">BLOCK</a>
+           <a class="dropdown-item" href="village.html">VILLAGE</a>
+           <a class="dropdown-item" href="police.html">POLICE</a>
+           <a class="dropdown-item" href="constituencies.html">CONSTITUENCIES</a>
+          </div>       
+ </div>
+      </li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          DIRECTORY
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="disaster.html">DISASTER MANAGEMENT</a>
+          <a class="dropdown-item" href="helpline.html">HELPLINE</a>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span style="color:black; margin:13px;">SERVICES</span></a>
+         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <a class="dropdown-item" href="utilities.html">PUBLIC UTILITIES</a>
+          <a class="dropdown-item" href="banks.html">BANKS</a>
+           
+          <a class="dropdown-item" href="hospitals.html">HOSPITALS</a>
+           <a class="dropdown-item" href="colg-unv.html">COLLEGES/UNIVERSITIES</a>
+           <a class="dropdown-item" href="schools.html">SCHOOLS</a>
+           <a class="dropdown-item" href="electricity.html">ELECTRICITY</a>
+           <a class="dropdown-item" href="municipality.html">MUNICIPALITY</a>
+           <a class="dropdown-item" href="postals.html">POSTALS</a>
+           <a class="dropdown-item" href="ngo.html">NGO's</a>
+          </div>          
+
+          <a class="dropdown-item" href="stdpin.html">STD & PIN CODES</a>
+        </div>
+      </li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          DEPARTMENTS
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="health.html">HEALTH</a>
+          <a class="dropdown-item" href="education.html">EDUCATION</a>
+          <a class="dropdown-item" href="disabilities.html">DISABILITIES</a>
+          
+          <a class="dropdown-item" href="animal_husbandary.html">ANIMAL HUSBANDRY</a>
+        </div>
+      </li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          FAMOUS FOR
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="lock.html">LOCKS</a>
+          <a class="dropdown-item" href="amu.html">AMU</a>
+          
+          
+        </div>
+      </li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          TOURISM
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="how_to_reach.html">HOW TO REACH</a>
+          <a class="dropdown-item" href="place_of_interest.html">PLACES OF INTEREST</a>
+          
+          <a class="dropdown-item" href="https://www.justdial.com/Aligarh/Restaurants/nct-10408936" target="blanck">HOTELS & RESTAURANTS</a>
+        </div>
+      </li>
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="gallery.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          GALLERY
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="gallery.html">MEDIA GALLERY</a>
+        </div>
+      </li>
+       
+     
+    </ul>
+    
+  </div>
+</nav>
+<img src="a1.jpg" alt="Beauty-of-Aligarh" height="250px" width="100%">
+<br/><br/>
+<h1 style="margin:30px; border:1px solid black; background-color:#f4c430; color:black; text-align:center;">Municipality Department</h1>
+<p>
+<div class="containers">
+	<ul>
+
+                <li><div class="title" style="background-color: green;color: white;"><span style="color:white;"><u>Aligarh Municipal Corporation</u></span></div>
+              <p style="margin:20px; font-size:22px;">
+             
+              <b>Address: Sewa Bhavan Near Ghanta Ghar Aligarh</b><br><br>
+              <b>Phone: 0571-2405520</b><br>
+              <b>Website Link:<a href="https://www.nnaligarh.com/">https://www.nnaligarh.com/</a></b>           
+</p></li>
+          
+</div>
+</p>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-lg-4 col-md-6">
+        <h3>Site Map</h3>
+        <ul class="list-unstyled three-column">
+          <li><a href="aligarh_diary.html">Home</a></li>
+          <li><a href="home.html">About Aligarh</a></li>
+          <li><a href="disaster.html">Directory</a></li>
+          <li><a href="health.html">Departments</a></li>
+          <li><a href="lock.html">Famous For</a></li>
+          <li><a href="how_to_reach.html">Tourism</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          
+        </ul>
+        <ul class="list-unstyled socila-list">
+          <h3>@ Aligarh</h3>
+          <p>Developed and Hosted By Students of</p>
+          <a href="https://www.kiet.edu/" target="blank"> KIET Group of Institutions</a>
+        </ul>
+      </div>
+      
+      <div class="col-lg-4 col-md-6">
+        <h3>About Us</h3>
+        <div class="media">
+          <a href="developers_.html" class="pull-left">
+            <div class="media-body">
+            <h4 class="media-heading">Developers</h4>
+            <p>Here is something to know about developers</p>
+          </div>
+          </a>
+          
+        </div>
+        
+        <div class="media">
+          <a href="help.html" class="pull-left">
+            <div class="media-body">
+            <h4 class="media-heading">Help</h4>
+            <p>Click Here to reach us!</p>
+          </div>
+          </a>
+          
+        </div>
+        
+        <div class="media">
+          <a href="contact_us.html" class="pull-left">
+            <div class="media-body">
+            <h4 class="media-heading">Contact Us</h4>
+            <p>contact.aligarh@gmail.com</p>
+          </div>
+          </a>
+         
+        </div>
+        
+      </div>
+      
+      <div class="col-lg-4">
+        <h3>Visit</h3>
+       <a href="https://www.kiet.edu/" target="blank"> <img class="img-thumbnail" src="images/kietlogo.png" alt="" height="150px" width="100px" /></a>
+        <a href="https://digitalindia.gov.in/" target="blank"><img class="img-thumbnail" src="images/digital-india.png" alt="" height="250px" width="150px" /></a>
+       <a href="https://www.makeinindia.com/home" target="blanck"> <img class="img-thumbnail" src="make_in_india.jpg" alt="" height="150px" width="250px" /></a>
+        <!-- <img class="img-thumbnail" src="http://placehold.it/150x100" alt="" /> -->
+      </div>
+      
+    </div>
+  </div>
+  <div class="copyright text-center">
+    Copyright &copy; 2020 <span>All About Aligarh</span>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
