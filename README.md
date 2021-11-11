@@ -6,4 +6,4 @@ Have a look at my project work. I have created a website by just using **HTML, C
 
 ### ***My Resume***
 
-Here you can also have a look at my resume created using only **HTML and CSS**. 
+Here you also have a look at my resume created using only **HTML and CSS**. 
