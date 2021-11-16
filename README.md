@@ -2,7 +2,7 @@
 
 ### ***Aligarh Website***
 
-Have a look at my project work. I have created a website by just using **HTML, CSS**, and little bit of **Javascript and Bootstrap**.
+Have a look at my project work. I have created a website by just using **HTML, CSS**, and little bit of **JavaScript and Bootstrap**.
 
 ### ***My Resume***
 
