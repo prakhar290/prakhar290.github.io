@@ -1,6 +1,6 @@
 # prakhar290.github.io
 
-### ***Aligarh Website***
+### ***ALIGARH WEBSITE***
 
 Have a look at my project work. I have created a website by just using **HTML, CSS**, and little bit of **JavaScript and Bootstrap**.
 
