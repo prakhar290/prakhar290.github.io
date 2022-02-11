@@ -3,7 +3,7 @@
 
 ### ***E-Commerce Website***
 
-This project is created using MERN technology, not completed currently working on it.
+This project is created using **MERN technology**, not completed currently working on it.
 
 ### ***ALIGARH WEBSITE***
 
