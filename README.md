@@ -3,7 +3,7 @@
 
 ### ***E-COMMERCE WEBSITE***
 
-This project is created using **MERN Technology**. This project is not completed yet, currently working on it. This will be a Hardware store from where anyone can buy hardware products.
+This project is created using **MERN Technology**. This project is not completed yet, currently working on it. This will be a Hardware store from where anyone can buy the hardware products.
 
 ### ***ALIGARH WEBSITE***
 
