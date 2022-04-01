@@ -7,7 +7,7 @@ function App() {
     //BEM naming convention
     <div className="app">
 
-      {/*Header*/}
+      {/*Header part*/}
       <Header />
       {/*Tinder Cards*/}
       {/*Swipe buttons*/}
