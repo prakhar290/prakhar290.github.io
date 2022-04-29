@@ -1,12 +1,12 @@
 import React from 'react'
-import b1 from './buy-1.jpg';
-import b2 from './buy-2.jpg';
-import b3 from './buy-3.jpg';
-import b4 from './category-1.jpg';
-import b5 from './category-2.jpg';
-import b6 from './category-3.jpg';
-import b7 from './exclusive.png';
-import b8 from './product-4.jpg';
+import b1 from './pic1.jfif';
+import b2 from './pic2.jfif';
+import b3 from './pic3.jfif';
+import b4 from './pic4.jfif';
+import b5 from './pic5.jfif';
+import b6 from './pic6.jfif';
+import b7 from './pic7.jfif';
+import b8 from './pic8.jfif';
 
 function Home() {
     const mystyle = {
@@ -18,7 +18,7 @@ function Home() {
             <header class="py-4 header-style">
             <div class="container px-4 px-lg-5 my-5">
                 <div class="text-center text-white">
-                    <h1 class="display-4 fw-bolder custom-h1">Shop in Style</h1>
+                    <h1 class="display-4 fw-bolder custom-h1">Top Quality Hardware</h1>
                     <p class="lead fw-normal text-white-50 mb-0">With us on RAMP Shopping Store!!</p>
                 </div>
             </div>
@@ -32,7 +32,7 @@ function Home() {
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Fancy Product</h5>
-                                    $40.00 - $80.00
+                                    Rs.150.00 - Rs.200.00
                                 </div>
                             </div>
                         </div>
@@ -51,8 +51,8 @@ function Home() {
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                     </div>
-                                    <span class="text-muted text-decoration-line-through">$20.00</span>
-                                    $18.00
+                                    <span class="text-muted text-decoration-line-through">Rs200.00</span>
+                                    Rs180.00
                                 </div>
                             </div>
                         </div>
@@ -64,8 +64,8 @@ function Home() {
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Sale Item</h5>
-                                    <span class="text-muted text-decoration-line-through">$50.00</span>
-                                    $25.00
+                                    <span class="text-muted text-decoration-line-through">Rs350.00</span>
+                                    Rs250.00
                                 </div>
                             </div>
                         </div>
@@ -83,7 +83,7 @@ function Home() {
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                     </div>
-                                    $40.00
+                                    Rs300.00
                                 </div>
                             </div>
                         </div>
@@ -95,8 +95,8 @@ function Home() {
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Sale Item</h5>
-                                    <span class="text-muted text-decoration-line-through">$50.00</span>
-                                    $25.00
+                                    <span class="text-muted text-decoration-line-through">Rs250.00</span>
+                                    Rs125.00
                                 </div>
                             </div>
                         </div>
@@ -107,7 +107,7 @@ function Home() {
                             <div class="card-body p-4">
                                 <div class="text-center">
                                     <h5 class="fw-bolder">Fancy Product</h5>
-                                    $120.00 - $280.00
+                                    Rs120.00 - Rs280.00
                                 </div>
                             </div>
                         </div>
@@ -126,8 +126,8 @@ function Home() {
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                     </div>
-                                    <span class="text-muted text-decoration-line-through">$20.00</span>
-                                    $18.00
+                                    <span class="text-muted text-decoration-line-through">Rs200.00</span>
+                                    Rs180.00
                                 </div>
                             </div>
                         </div>
@@ -145,7 +145,7 @@ function Home() {
                                         <div class="bi-star-fill"></div>
                                         <div class="bi-star-fill"></div>
                                     </div>
-                                    $40.00
+                                    Rs150.00
                                 </div>
                             </div>
                         </div>

@@ -45,7 +45,7 @@ const Register = () => {
             <input type="text" name="name" value={user.name} placeholder="Your Name" onChange={ handleChange }></input>
             <input type="text" name="email" value={user.email} placeholder="Your Email" onChange={ handleChange }></input>
             <input type="text" name="phone" value={user.phone} placeholder="Your Phone Number" minlength = "10" maxlength = "10" onChange={ handleChange }></input>
-            <input type="password" name="address" value={user.address} placeholder="Your Address" onChange={ handleChange }></input>
+            <input type="text" name="address" value={user.address} placeholder="Your Address" onChange={ handleChange }></input>
             <input type="password" name="password" value={user.password} placeholder="Your Password" minlength = "6" maxlength = "10" onChange={ handleChange }></input>
             <input type="password" name="reEnterPassword" value={user.reEnterPassword} placeholder="Re-enter Password" onChange={ handleChange }></input>
             <div className="button" onClick={register} >Register</div>
