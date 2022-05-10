@@ -1,3 +1,4 @@
+const ErrorHander = require("../utils/errorhander");
 const ErrorHandler = require("../utils/errorhander");
 
 
@@ -9,6 +10,28 @@ module.exports = (err,req,res,next)=>{
 
     if(err.name === "CastError"){
         message = `Resource not found. Invalid ${err.path}`;
+        err = new ErrorHandler(message, 400);
+    }
+
+    //mongoose duplicate key error
+
+    if(err.code === 11000){
+        const message = `Duplicate ${Object.keys(err.keyValue)} entered`;
+        err = new ErrorHandler(message, 400);
+    }
+
+    //wrong JWT error
+    
+    if(err.name === "JsonwebTokenError"){
+        message = `Json web token is Invalid, try again`;
+        err = new ErrorHandler(message, 400);
+    }
+
+
+    //JWT expire error
+
+    if(err.name === "TokenExpiredError"){
+        message = `Json web token is expired, try again`;
         err = new ErrorHandler(message, 400);
     }
 
