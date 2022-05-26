@@ -1,4 +1,3 @@
-const ErrorHander = require("../utils/errorhander");
 const ErrorHandler = require("../utils/errorhander");
 
 
